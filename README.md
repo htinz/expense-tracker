@@ -1,4 +1,4 @@
-# expense-tracker
+# React
 
 ## Components, State, Event, Rendering List and Conditional Content
 
