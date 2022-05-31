@@ -11,3 +11,4 @@ https://github.com/htinz/expense-tracker
 ## Code Examples
 
 ![code example 1](https://user-images.githubusercontent.com/106032566/171300830-a3417b78-86d5-44ec-8ef2-b2d4e68b75ce.png)
+![code example 2](https://user-images.githubusercontent.com/106032566/171300954-57516f02-67f9-40f0-aa03-397215f0b944.png)
