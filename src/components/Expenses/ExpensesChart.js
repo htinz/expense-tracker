@@ -17,10 +17,14 @@ const ExpensesChart = (props) => {
     { label: "Dec", value: 0 },
   ];
 
+  // loop through all expenses via props, use "for of loop" because it is an array
   for (const expense of props.expenses) {
+    // get expenses month, starting at 0 => Jan is 0
     const expenseMonth = expense.date.getMonth();
+    // update value of selected datapoint and increase the value of a given month
     chartDataPoints[expenseMonth].value += expense.amount;
   }
+  // pass dataPoints to Chart component and set chartDataPoints as a value
   return <Chart dataPoints={chartDataPoints} />;
 };
 

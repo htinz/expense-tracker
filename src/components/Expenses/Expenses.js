@@ -19,10 +19,12 @@ const Expenses = (props) => {
 
   return (
     <Card className="expenses">
+      {/* control component */}
       <ExpenseFilter
         selected={filteredYear}
         onChangeFilter={filterChangeHandler}
       />
+      {/* render ExpensesChart and pass expenses to ExpensesChart via props */}
       <ExpensesChart expenses={filteredExpenses} />
       <ExpensesList items={filteredExpenses} />
     </Card>

@@ -25,9 +25,11 @@ const DUMMY_EXPENSES = [
 ];
 
 const App = () => {
+  // set up state and initialize
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
   const addExpenseHandler = (expense) => {
+    // update state
     setExpenses((prevExpenses) => {
       return [expense, ...prevExpenses];
     });
@@ -36,6 +38,7 @@ const App = () => {
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
+      {/* render Expenses component and pass expenses data via props */}
       <Expenses items={expenses} />
     </div>
   );
