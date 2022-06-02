@@ -10,7 +10,7 @@ https://github.com/htinz/expense-tracker
 
 ## Expense-Tracker-Demo
 
-https://user-images.githubusercontent.com/106032566/171625426-f082de18-0a10-40af-aa97-23125fc05dda.mov
+https://user-images.githubusercontent.com/106032566/171697307-81815e48-731a-4dfb-8c14-5602e5ae8195.mov
 
 ## Code Examples
 
