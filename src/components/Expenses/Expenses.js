@@ -22,7 +22,7 @@ const Expenses = (props) => {
 
   return (
     <Card className="expenses">
-      {/* render ExpenseFilter "control component" */}
+      {/* render ExpenseFilter as a "control component" */}
       <ExpenseFilter
         // create an attribute and point it
         selected={filteredYear}
