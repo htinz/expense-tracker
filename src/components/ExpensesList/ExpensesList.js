@@ -12,6 +12,7 @@ const ExpensesList = (props) => {
       {/* render ExpenseItem dynamically and pass data via props */}
       {props.items.map((expense) => (
         <ExpenseItem
+          // add key to help render list items effeciently
           key={expense.id}
           title={expense.title}
           amount={expense.amount}

@@ -2,7 +2,7 @@ import React from "react";
 import "./ChartBar.css";
 
 const ChartBar = (props) => {
-  // set a variable to fill chartBar height
+  // set a variable to fill ChartBar height
   let barFillHeight = "0%";
   if (props.maxValue > 0) {
     // calculate percentage of maximum value to fill height
